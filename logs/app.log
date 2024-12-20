@@ -1,0 +1,162 @@
+2024-12-20 18:29:59 [main] INFO  project.calendar.Server - Сервер запущен на порту 8000
+2024-12-20 19:14:38 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:14:38 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-20 19:14:38 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:14:38 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-20 19:14:44 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/create
+2024-12-20 19:14:44 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:14:44 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:14:44 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:14:44 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The task has been added.
+2024-12-20 19:14:44 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Добавлена новая заметка на день - 2024-12-20
+2024-12-20 19:16:10 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:16:10 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-20 19:16:10 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:16:10 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-20 19:16:14 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-20
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=20
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:16:14 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 19:16:14 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[{"date":"2024-12-20","id":36,"position":1,"text":"egregr"}]}
+2024-12-20 19:16:14 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/delete
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - Deleted entries: 1
+2024-12-20 19:16:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:16:15 [JavaFX Application Thread] INFO  project.calendar.Client - POST Response Code :: 200
+2024-12-20 19:16:15 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Удалена запись на дату - 2024-12-20 с позицией - 1
+2024-12-20 19:16:17 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/clean
+2024-12-20 19:16:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:16:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - Deleted entries: 0
+2024-12-20 19:16:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:16:17 [JavaFX Application Thread] INFO  project.calendar.Client - POST Response Code :: 200
+2024-12-20 19:16:17 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Все заметки на дату - 2024-12-20 удалены.
+2024-12-20 19:16:19 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-20
+2024-12-20 19:16:19 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=20
+2024-12-20 19:16:19 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 19:16:19 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:16:19 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:16:19 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 19:16:19 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[]}
+2024-12-20 19:46:18 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 19:46:18 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-20 19:46:18 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 19:46:18 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-20 20:38:55 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:38:55 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-20 20:38:55 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:38:55 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-20 20:39:10 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-20
+2024-12-20 20:39:10 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=20
+2024-12-20 20:39:11 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 20:39:11 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:11 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:11 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 20:39:11 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[]}
+2024-12-20 20:39:14 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-10
+2024-12-20 20:39:14 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=10
+2024-12-20 20:39:14 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 20:39:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:14 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:14 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 20:39:14 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[]}
+2024-12-20 20:39:17 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/create
+2024-12-20 20:39:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:17 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The task has been added.
+2024-12-20 20:39:17 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Добавлена новая заметка на день - 2024-12-10
+2024-12-20 20:39:20 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-10
+2024-12-20 20:39:20 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=10
+2024-12-20 20:39:20 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 20:39:20 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:20 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:20 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 20:39:20 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[{"date":"2024-12-10","id":37,"position":1,"text":"hjhgjh"}]}
+2024-12-20 20:39:26 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-10
+2024-12-20 20:39:26 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=10
+2024-12-20 20:39:27 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 20:39:27 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:27 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:27 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 20:39:27 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[{"date":"2024-12-10","id":37,"position":1,"text":"hjhgjh"}]}
+2024-12-20 20:39:27 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/delete
+2024-12-20 20:39:27 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:27 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - Deleted entries: 1
+2024-12-20 20:39:27 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:27 [JavaFX Application Thread] INFO  project.calendar.Client - POST Response Code :: 200
+2024-12-20 20:39:27 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Удалена запись на дату - 2024-12-10 с позицией - 1
+2024-12-20 20:39:28 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-10
+2024-12-20 20:39:28 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=10
+2024-12-20 20:39:28 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 20:39:28 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 20:39:28 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 20:39:28 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 20:39:28 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[]}
+2024-12-20 23:58:02 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 23:58:02 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-20 23:58:02 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 23:58:02 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-20 23:59:44 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 23:59:44 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-20 23:59:44 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 23:59:44 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-20 23:59:50 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-20
+2024-12-20 23:59:50 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=20
+2024-12-20 23:59:50 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-20 23:59:50 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-20 23:59:50 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - DB return list of tasks
+2024-12-20 23:59:50 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-20 23:59:50 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-20 23:59:50 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[]}
+2024-12-21 00:00:21 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/create
+2024-12-21 00:00:21 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:00:21 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:00:21 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:00:21 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The task has been added.
+2024-12-21 00:00:21 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Добавлена новая заметка на день - 2024-12-20
+2024-12-21 00:00:26 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/clean
+2024-12-21 00:00:26 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:00:26 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - Deleted entries: 1
+2024-12-21 00:00:26 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:00:26 [JavaFX Application Thread] INFO  project.calendar.Client - POST Response Code :: 200
+2024-12-21 00:00:26 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Все заметки на дату - 2024-12-20 удалены.
+2024-12-21 00:00:58 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-20
+2024-12-21 00:00:58 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=20
+2024-12-21 00:00:59 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-21 00:00:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:00:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - DB return list of tasks
+2024-12-21 00:00:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:00:59 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-21 00:00:59 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[]}
+2024-12-21 00:58:35 [main] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:35 [main] INFO  project.calendar.TaskDatabase - The table has been created or already exists.
+2024-12-21 00:58:35 [main] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:58:35 [main] INFO  project.calendar.Server - The server is running on port 8000
+2024-12-21 00:58:52 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/create
+2024-12-21 00:58:52 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:52 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:52 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:58:52 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The task has been added.
+2024-12-21 00:58:52 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Добавлена новая заметка на день - 2024-12-20
+2024-12-21 00:58:56 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/create
+2024-12-21 00:58:56 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:56 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:56 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:58:56 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The task has been added.
+2024-12-21 00:58:56 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Добавлена новая заметка на день - 2024-12-20
+2024-12-21 00:58:59 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/create
+2024-12-21 00:58:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:58:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:58:59 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The task has been added.
+2024-12-21 00:58:59 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a POST request: Добавлена новая заметка на день - 2024-12-20
+2024-12-21 00:59:00 [JavaFX Application Thread] INFO  project.calendar.Client - Request to - http://localhost:8000/getList?date=2024-12-20
+2024-12-21 00:59:00 [HTTP-Dispatcher] INFO  project.calendar.Server - Request to - https://isdayoff.ru/api/getdata?year=2024&month=12&day=20
+2024-12-21 00:59:01 [HTTP-Dispatcher] INFO  project.calendar.Server - GET Response Code :: 200
+2024-12-21 00:59:01 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is established.
+2024-12-21 00:59:01 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - DB return list of tasks
+2024-12-21 00:59:01 [HTTP-Dispatcher] INFO  project.calendar.TaskDatabase - The connection to the database is closed.
+2024-12-21 00:59:01 [JavaFX Application Thread] INFO  project.calendar.Client - GET Response Code :: 200
+2024-12-21 00:59:01 [JavaFX Application Thread] INFO  project.calendar.Client - Response to a GET request: {"type":Рабочий день, "tasks":[{"date":"2024-12-20","id":39,"position":1,"text":"hello"},{"date":"2024-12-20","id":40,"position":2,"text":"poka"},{"date":"2024-12-20","id":41,"position":3,"text":"kaka"}]}

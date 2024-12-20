@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CalendarTask:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CalendarTask_jar</output-path>
+    <root id="archive" name="CalendarTask.jar">
+      <element id="module-output" name="CalendarTask" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.41.2.2/sqlite-jdbc-3.41.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17.0.6/javafx-controls-17.0.6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20231013/json-20231013.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17.0.6/javafx-controls-17.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17.0.6/javafx-fxml-17.0.6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17.0.6/javafx-fxml-17.0.6.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx-swt.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.base.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.controls.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.fxml.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.graphics.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.media.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.properties" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.swing.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/openjfx-17.0.13_windows-x64_bin-sdk/javafx-sdk-17.0.13/lib/javafx.web.jar" />
+    </root>
+  </artifact>
+</component>
